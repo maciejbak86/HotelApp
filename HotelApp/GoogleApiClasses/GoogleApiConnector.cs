@@ -9,6 +9,12 @@ namespace HotelApp.GoogleApiManager
     {
         const string GoogleApiKey = "AIzaSyBkX7Ln3_XxTvuFwrLv3bAiMEL5W1dwa7I";
 
+        public void Hello()
+        {
+            string dummyString = "Hello!";
+        }
+
+
         //var address = "123 something st, somewhere";
         //var requestUri = string.Format("http://maps.googleapis.com/maps/api/geocode/xml?address={0}&sensor=false", Uri.EscapeDataString(address));
 
